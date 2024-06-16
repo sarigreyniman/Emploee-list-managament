@@ -1,0 +1,84 @@
+.Paper{
+ margin-left: 2vw; 
+}
+
+.scrollable-table {
+    max-height: 72vh;
+    width: 96vw;
+    overflow-x: auto;
+}
+.tableRow:hover {
+    background-color: #f0f5ff;
+   
+}
+.outlinedInput{
+    height: 7vh;
+    background-color: #f1f3f4;
+    /* background-color: #7bb1c432; */
+
+    width: 50%;
+    margin-left:2vw ;
+    margin-bottom: 5vh;
+}
+.outlinedInput:focus-within{
+    background-color: white;
+}
+.tableHead{
+    width: 96vw;
+    position: fixed;
+    top:auto;
+    z-index: 1000;
+}
+.buttonsSerachAdd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* putWorkerForm */
+.title{
+    font-size: 3vh;
+    margin-left: 3vw;
+   
+}
+.arrowIcon{
+    
+    margin-right: 90vw;
+    position: fixed;
+    top: 3vh;
+    z-index: 1000;
+}
+.textField{
+    width: 35vw;
+}
+.backgrounds{
+    background-color: #f8fafd;
+}
+
+.header{
+    height: 8vh;
+    background-color: #f8fafd;
+
+}
+
+  
+.form{
+margin-left: 4vw;
+
+}
+
+.allForm{
+    width: 50vw;
+    margin-left: 2vw;
+    
+}
+.drawer{
+    margin-top: 5vh;
+}
+.buttonsEdit{
+    margin-top: 2vh;
+}
+.buttonsEdit button{
+    margin-right: 2vw;
+}
+
